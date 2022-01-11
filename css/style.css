@@ -3,12 +3,13 @@
 body {
     max-width: 50%;
     margin: 1em auto;
-    background-color: tan;
-    text-shadow: 3px 3px 5px white;
+    background-color: #333333;
+    text-shadow: 2px 3px 5px black;
+    color: white;
 }
 
 .second-title {
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid white;
     font-weight: bold;
 }
 
@@ -17,7 +18,7 @@ header {
     grid-template-columns: auto 1fr;
     grid-gap: 10px;
     align-items: center;
-    background-color: green;
+    background-color: #3D3D3D;
     border-radius: 10px;
     padding: 1rem;
     box-shadow: 3px 3px 5px black;
@@ -27,14 +28,15 @@ header {
     text-align: center;
 }
 
-div {
+.content {
     display: grid;
     grid-template-columns: 1fr;
     align-items: center;
 }
 
+
 p {
-    border-top: 1px solid black;
+    border-top: 1px solid white;
     font-style: italic;
 }
 
@@ -42,10 +44,22 @@ p {
     text-align: center;
 }
 
+ul {
+    font-family: 'Montserrat', sans-serif;
+}
+
+a:hover {
+    color: skyblue;
+}
+
+a {
+    color: #177C9C;
+    text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
+}
 
 
 footer {
-    background-color: green;
+    background-color: #3D3D3D;
     border-radius: 10px;
     padding: 10px;
     font-family: sans-serif;
