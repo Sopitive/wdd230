@@ -1,0 +1,48 @@
+
+
+header {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-gap: 5px;
+    align-items: center;
+    background-color: #3D3D3D;
+    border-radius: 10px;
+    padding: 1rem;
+    box-shadow: 3px 3px 5px black;
+    color: white;
+}
+
+.title1 {
+    text-align: center;
+    grid-column: 2 / 4;
+}
+
+.title2 {
+    text-align: center;
+    grid-row: 2 / 2;
+    grid-column: 2 / 4;
+}
+
+body {
+    background-color: #333333;
+}
+
+main {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    text-shadow: 2px 3px 5px black;
+    color: white;
+}
+
+section {
+    text-align: center;
+}
+
+a {
+    color: #177C9C;
+}
+
+img {
+    width: 100%;
+}
