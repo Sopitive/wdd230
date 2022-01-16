@@ -30,9 +30,10 @@ body {
 
 main {
     display: grid;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-auto-columns: auto;
     text-shadow: 2px 3px 5px black;
     color: white;
+    grid-column-gap: 15px;
 }
 
 section {
@@ -40,9 +41,13 @@ section {
 }
 
 a {
-    color: #177C9C;
+    color: #17A8C9;
 }
 
 img {
     width: 100%;
+}
+
+#third-section {
+    grid-row: 3 / 3;
 }

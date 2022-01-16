@@ -3,7 +3,6 @@
 main {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-column-gap: 2fr 2fr 2fr;
 }
 
 section {
@@ -12,7 +11,8 @@ section {
 }
 
 #third-section {
-    grid-column: 3 / 3;
+    grid-row: 1;
+    grid-column: 3 / end;
 }
 
 }
