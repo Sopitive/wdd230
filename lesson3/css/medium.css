@@ -1,0 +1,16 @@
+@media (min-width: 37.5em) {
+
+    section {
+        margin-bottom: 1em;
+        align-self: stretch;
+    }
+    
+    nav {
+        flex-direction: row;
+    }
+
+    header {
+        flex-flow: column;
+    }
+    
+    }

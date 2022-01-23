@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+
+header {
+    display: flex;
+    flex: auto;
+    flex-flow: row;
+    align-items: center;
+    justify-content: center;
+    background-color: #3D3D3D;
+    border-radius: 5px;
+    padding: 2px;
+    box-shadow: 3px 3px 5px black;
+    color: orange;
+    margin: 0 auto;
+    max-width: 960px;
+}
+
+.title1 {
+    text-align: center;
+}
+
+.title2 {
+    text-align: center;
+}
+
+body {
+    background-color: #333333;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    text-shadow: 2px 3px 5px black;
+    color: white;
+    padding: 10px;
+    margin: 0 auto;
+}
+
+section {
+    text-align: center;
+}
+
+a {
+    color: #17A8C9;
+}
+
+img {
+    width: 25%;
+}
+
+p {
+    color: white;
+}
+
+h3, h4 {
+    color: orange;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    background-color: skyblue;
+    margin: 0 auto;
+    text-align: center;
+    box-shadow: 0 0 10px black;
+}
+
+nav div {
+    flex: 1 1 auto;
+}
+
+nav a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+}
+
+nav a:hover {
+    background-color: gray;
+}
+
+ul {
+    color: white;
+}
+
+footer {
+    color: white;
+    background-color: #3D3D3D;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.colors {
+    color: white;
+}
+
+.color1 {
+    background-color: #333333;
+}
+
+.color2 {
+    background-color: white;
+    color: black;
+}
+
+.color3 {
+    background-color: Gray;
+}
+
+.color4 {
+    background-color: skyblue;
+}
+
+.color5 {
+    background-color: #17A8C9;
+}
