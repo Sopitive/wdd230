@@ -1,6 +1,6 @@
 @media (min-width: 37.5em) {
 
-    section {
+    main div {
         margin-bottom: 1em;
         align-items: center;
     }
@@ -8,8 +8,6 @@
 
 
     main {
-        display: grid;
-        grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
         grid-template-columns: 1fr 1fr 1fr;
     }
 
@@ -47,6 +45,9 @@
         width: 130px;
     }
 
+    .hamburger {
+        grid-column: 5 / 6;
+    }
     
     
 }

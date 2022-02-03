@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,34 +12,50 @@
     <link rel="stylesheet" href="css/medium.css">
     <link rel="stylesheet" href="css/large.css">
 </head>
+
 <body>
     <header>
         <img src="images/logo.jpg" alt="logo">
         <h1>Socorro County <span class="sub-header">Chamber of Commerce</span></h1>
+
+        <div class="current-date"></div>
         <button id="hamburger"><span> ☰ </span></button>
-        
-    <nav id="navigation" class="nav">
-        <div><a href="index.html">Home</a></div>
-        <div><a href="discover.html">Discover</a></div>
-        <div><a href="directory.html">Directory</a></div>
-        <div><a href="join.html">Join</a></div>
-        <div><a href="#">Contact</a></div>
-    </nav>
+        <div class="social">
+            <a href="http://facebook.com/"><img src="images/facebook.png"></a>
+            <a href="http://linkedin.com"><img src="images/linkedn.png" href="http://www.linkedn.com"></a>
+        </div>
+        <nav id="navigation" class="nav">
+            <div><a href="index.html">Home</a></div>
+            <div><a href="discover.html">Discover</a></div>
+            <div><a href="directory.html">Directory</a></div>
+            <div><a href="join.html">Join</a></div>
+            <div><a href="#">Contact</a></div>
+        </nav>
     </header>
     <main>
-        <section class="event"><h3>Event</h3></section>
-        <section class="weather"><h3>Weather</h3></section>
-        <section class="join"><h3>Join</h3></section>
-        <section class="action"><h3>Hero with site name and call to action</h3></section>
-        <section class="news"><h3>News Release</h3></section>
-        <section class="spotlight">
+        <div class="event">
+            <h3>Event</h3>
+        </div>
+        <div class="weather">
+            <h3>Weather</h3>
+        </div>
+        <div class="join">
+            <h3>Join</h3>
+        </div>
+        <div class="action">
+            <h3>Hero with site name and call to action</h3>
+        </div>
+        <div class="news">
+            <h3>News Release</h3>
+        </div>
+        <div class="spotlight">
             <h3>Spotlight 1</h3>
             <h3>Spotlight 2</h3>
             <h3 class="spot-3">Spotlight 3</h3>
-        </section>
+        </div>
     </main>
     <footer>
-        <div>&copy;<span id="year">2022</span> | Wyatt Moore | New Mexico</div>
+        <div>&copy;<span id="year">2022</span> | Wyatt Moore | New Mexico | WDD-230 Project</div>
         <span id="updated"></span>
     </footer>
     <script src="js/date.js"></script>
