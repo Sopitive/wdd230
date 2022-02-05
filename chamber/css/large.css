@@ -2,8 +2,7 @@
 
     main {
         display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        grid-template-rows: repeat(3, 1fr);
+        grid-template-columns: 25em 42em 25em;
     }
 
     .event {
