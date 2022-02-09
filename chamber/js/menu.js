@@ -10,6 +10,14 @@ menu.addEventListener("click", () => {
     nav.classList.toggle("responsive");
 })
 
+window.onresize = function(){
+    if (window.innerWidth > 830) {
+        nav.classList.remove("responsive");
+    }
+    
+    }
+
+
 const banner_text = banner.appendChild(Object.assign(document.createElement("h3"), {
     class: "banner-text",
     innerHTML: "🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m."

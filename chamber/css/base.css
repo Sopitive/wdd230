@@ -3,6 +3,7 @@
 html {
     font-family: Roboto;
     font-size: 1rem;
+    font-size-adjust: auto;
 }
 
 header {
@@ -39,7 +40,7 @@ body {
 main {
     display: grid;
     grid-gap: 10px;
-    grid-auto-rows: 20em;
+    grid-auto-rows: fit-content(10em);
     text-shadow: 2px 3px 5px black;
     color: white;
     padding: 10px;
@@ -131,8 +132,7 @@ footer {
 
 .action h3 {
     position: absolute;
-    left: 50%;
-    font-size: 1.7em;
+    left: 35%;
 }
 
 .spot-3 {
@@ -175,10 +175,9 @@ footer {
 .social {
     max-width: 100%;
     grid-row: 2 / 3;
-    overflow: hidden;
 }
 
 .social img {
-    width: 3em;
+    width: 3rem;
     align-items: center;
 }
