@@ -14,6 +14,10 @@ header {
     max-width: 100%;
 }
 
+header:hover { 
+    background: rgba(61, 61, 61, 0.8);
+}
+
 .sub-header {
     font-size: 0.5em;
     white-space: nowrap;
@@ -25,12 +29,6 @@ header h1 {
     text-align: center;
     max-width: 100%;
 }
-
-header nav {
-    grid-column: 3 / 5;
-    grid-row: 1 / 2
-}
-
 
 
 body {
@@ -44,7 +42,9 @@ main {
     text-shadow: 2px 3px 5px black;
     color: white;
     padding: 10px;
+    transition: all 1s ease-in-out;
 }
+
 
 main div {
     text-align: center;
@@ -53,14 +53,29 @@ main div {
     width: 100%;
 }
 
+main div:hover {
+    background: rgba(61, 61, 61, 0.5);
+}
+
+main div img:hover {
+    opacity: 0.8;
+}
+
 
 a {
     color: #17A8C9;
+    text-decoration: none;
+    transition: all 500ms;
+}
+
+a:hover {
+    font-size: 1.5rem;
 }
 
 header img {
     width: 100px;
     padding: 20px;
+    border-radius: 75%;
 }
 
 p {
@@ -71,15 +86,19 @@ h3, h4 {
     color: orange;
 }
 
-nav {
-    display: none;
+header nav {
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+    padding: 1.5px;
+    height: 0;
+    opacity: 0;
+    transition: all 500ms ease-in-out;
 }
 
 button {
     border: none;
     background: none;
     color: inherit;
-    font-family: inherit;
     margin-bottom: 10rem;
     font-size: 20px;
     grid-row: 1 / 2;
@@ -89,15 +108,14 @@ button {
 nav a {
     display: block;
     text-decoration: none;
-    color: white;
+    color: orange;
     font-size: 1.5rem;
 }
 
-nav a:hover {
+nav div:hover {
     background-color: gray;
     margin-top: 5px;
-    transition: margin-top 300ms;
-    color: orange;
+    transition: margin 500ms ease-in-out;
 }
 
 ul {
@@ -130,9 +148,19 @@ footer {
     position: relative;
 }
 
-.action h3 {
+.action a {
     position: absolute;
     left: 35%;
+    background: rgba(61, 61, 61, 0.8);
+    padding: 1em;
+    color: orange;
+    font-size: 1.1rem;
+    transition: all 500ms;
+}
+
+.action a:hover {
+    background: rgba(61, 61, 61, 1);
+    font-size: 1.2rem;
 }
 
 .spot-3 {
@@ -149,14 +177,15 @@ footer {
 
 .responsive {
     display: grid;
-    grid-column: 2 / 3;
-    padding: 1.5rem;
-    background-color: gray;
+    height: 100%;
+    opacity: 1;
+    padding: 1.5px;
+    background-color: #3D3D3D;
+    position: relative;
 }
 
 .responsive a:hover {
-    background-color: gray;
-    margin-left: 8px;
+    margin-left: 10px;
     transition: margin-left 300ms;
 }
 
@@ -178,6 +207,12 @@ footer {
 }
 
 .social img {
-    width: 3rem;
+    width: 2rem;
     align-items: center;
+    transition: width 800ms;
+}
+
+.social img:hover {
+    width: 2.5rem;
+    transition: width 800ms;
 }

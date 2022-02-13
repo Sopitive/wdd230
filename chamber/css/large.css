@@ -1,8 +1,11 @@
 @media (min-width: 830px) {
 
-    main {
-        display: grid;
+    header nav {
+        opacity: 1;
+        grid-column: 3 / 4;
+        height: 0;
     }
+    
 
     .event {
         grid-row: 1 / 3;
@@ -44,6 +47,10 @@
         grid-gap: 10px;
         margin: 0 auto;
         text-align: center;
+    }
+
+    main {
+        grid-gap: 10px;
     }
 
     button {

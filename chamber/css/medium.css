@@ -4,12 +4,18 @@
         margin-bottom: 1em;
         align-items: center;
     }
-    
 
+    header nav {
+        grid-column: 2 / 3;
+        padding: 1.5px;
+        height: 0;
+    }
 
     main {
         grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 15px;
     }
+
 
     .action {
         grid-column: 1 / 5;
