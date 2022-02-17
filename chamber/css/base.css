@@ -60,7 +60,7 @@ main div img:hover {
 
 
 a {
-    color: #17A8C9;
+    color: #17B5DE;
     text-decoration: none;
     transition: all 500ms;
 }
@@ -79,7 +79,7 @@ p {
     color: white;
 }
 
-h3, h4 {
+h2, h4 {
     color: orange;
 }
 
