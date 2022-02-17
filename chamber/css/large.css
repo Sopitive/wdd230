@@ -1,4 +1,4 @@
-@media (min-width: 830px) {
+@media only screen and (min-width: 830px) {
 
     header nav {
         opacity: 1;
@@ -50,7 +50,7 @@
     }
 
     main {
-        grid-gap: 10px;
+        grid-gap: 1em;
     }
 
     button {

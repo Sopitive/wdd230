@@ -1,4 +1,4 @@
-@media (min-width: 37.5em) {
+@media only screen and (min-width: 37.5em) {
 
     main div {
         margin-bottom: 1em;
@@ -13,7 +13,7 @@
 
     main {
         grid-template-columns: 1fr 1fr 1fr;
-        grid-gap: 15px;
+        grid-gap: 2em;
     }
 
 

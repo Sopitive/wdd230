@@ -3,7 +3,6 @@
 html {
     font-family: Roboto;
     font-size: 1rem;
-    font-size-adjust: auto;
 }
 
 header {
@@ -11,7 +10,6 @@ header {
     align-items: center;
     background-color: #3D3D3D;
     color: orange;
-    max-width: 100%;
 }
 
 header:hover { 
@@ -27,7 +25,6 @@ header h1 {
     grid-column: 2 / 3;
     grid-row: 1 / 2;
     text-align: center;
-    max-width: 100%;
 }
 
 
@@ -37,11 +34,11 @@ body {
 
 main {
     display: grid;
-    grid-gap: 10px;
+    grid-gap: 3em;
     grid-auto-rows: fit-content(10em);
     text-shadow: 2px 3px 5px black;
     color: white;
-    padding: 10px;
+    padding: 1em;
     transition: all 1s ease-in-out;
 }
 
@@ -73,8 +70,8 @@ a:hover {
 }
 
 header img {
-    width: 100px;
-    padding: 20px;
+    width: 4em;
+    padding: 1em;
     border-radius: 75%;
 }
 
@@ -89,7 +86,7 @@ h3, h4 {
 header nav {
     grid-column: 2 / 3;
     grid-row: 1 / 2;
-    padding: 1.5px;
+    padding: 1.5em;
     height: 0;
     opacity: 0;
     transition: all 500ms ease-in-out;
