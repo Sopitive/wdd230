@@ -1,0 +1,9 @@
+
+
+body {
+    display: flex;
+    flex-flow: column;
+    background-color: rgb(60, 60, 60);
+    color: white;
+    align-items: center;
+}
