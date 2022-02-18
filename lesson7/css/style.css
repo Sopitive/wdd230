@@ -7,3 +7,14 @@ body {
     color: white;
     align-items: center;
 }
+
+img[data-src] {
+    filter: blur(0.1em);
+    opacity: 25%;
+}
+
+img {
+    filter: blur(0em);
+    opacity: 100%;
+    transition: all 500ms ease-in;
+}
