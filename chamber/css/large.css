@@ -6,6 +6,9 @@
         height: 0;
     }
     
+    .social {
+        grid-column: 4/5;
+    }
 
     .event {
         grid-row: 1 / 3;
