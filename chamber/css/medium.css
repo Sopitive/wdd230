@@ -47,6 +47,12 @@
         grid-column: 3 / 4;
     }
 
+    .discover-main div:hover {
+        transition: all 500ms ease-in-out;
+        opacity: 1;
+        height: 100%;
+    }
+
 
     
     
