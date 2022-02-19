@@ -13,10 +13,10 @@ const imgOptions = {
 if ('IntersectionObserver' in window) {
     const imageObserver = new IntersectionObserver((items, observer) => {
         items.forEach((item) => {
-            if(item.isIntersecting) {
+            if (item.isIntersecting) {
                 loadImages(item.target);
                 observer.unobserve(item.target);
-              }
+            }
         })
     }, imgOptions);
 
@@ -30,3 +30,18 @@ else {
         loadImages(img);
     });
 }
+
+const visits = document.querySelector(".visits");
+
+let visitTime = window.localStorage.getItem("visits");
+const today = Date.now();
+console.log(today);
+if (visits) {
+
+    const last_seconds = Math.ceil((today - parseInt(visitTime)) / 1000);
+    const last_minutes = Math.floor(last_seconds / 60);
+    const last_hours = Math.floor(last_minutes / 60);
+    const last_days = last_hours / 24;
+    visits.innerHTML = `Last Visit: ${last_days} days, ${last_hours} hours, ${last_minutes} minutes, ${last_seconds} seconds`;
+}
+window.localStorage.setItem("visits", today);

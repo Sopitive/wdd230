@@ -10,12 +10,12 @@ menu.addEventListener("click", () => {
     nav.classList.toggle("responsive");
 })
 
-window.onresize = function(){
+window.onresize = function () {
     if (window.innerWidth > 830) {
         nav.classList.remove("responsive");
     }
-    
-    }
+
+}
 
 
 const banner_text = banner.appendChild(Object.assign(document.createElement("h3"), {
@@ -26,4 +26,16 @@ const banner_text = banner.appendChild(Object.assign(document.createElement("h3"
 if (day !== 1 | day !== 2) {
     banner_text.style.display = "none";
 }
+
+const visits = document.querySelector(".visits");
+
+let visitTime = window.localStorage.getItem("visits");
+
+
+const date = Date();
+
+const today = date.getDate();
+const day = today.getDay();
+console.log(day);
+
 
