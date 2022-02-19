@@ -34,14 +34,12 @@ else {
 const visits = document.querySelector(".visits");
 
 let visitTime = window.localStorage.getItem("visits");
-const today = Date.now();
-console.log(today);
+const current_date = Date.now();
 if (visits) {
-
-    const last_seconds = Math.ceil((today - parseInt(visitTime)) / 1000);
+    const last_seconds = Math.ceil((current_date - parseInt(visitTime)) / 1060);
     const last_minutes = Math.floor(last_seconds / 60);
     const last_hours = Math.floor(last_minutes / 60);
     const last_days = last_hours / 24;
     visits.innerHTML = `Last Visit: ${last_days} days, ${last_hours} hours, ${last_minutes} minutes, ${last_seconds} seconds`;
 }
-window.localStorage.setItem("visits", today);
+window.localStorage.setItem("visits", current_date);

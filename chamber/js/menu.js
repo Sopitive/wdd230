@@ -17,25 +17,14 @@ window.onresize = function () {
 
 }
 
+if (banner) {
+    const banner_text = banner.appendChild(Object.assign(document.createElement("h3"), {
+        class: "banner-text",
+        innerHTML: "🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m."
+    }))
 
-const banner_text = banner.appendChild(Object.assign(document.createElement("h3"), {
-    class: "banner-text",
-    innerHTML: "🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m."
-}))
+    if (day !== 1 | day !== 2) {
+        banner_text.style.display = "none";
+    }
 
-if (day !== 1 | day !== 2) {
-    banner_text.style.display = "none";
 }
-
-const visits = document.querySelector(".visits");
-
-let visitTime = window.localStorage.getItem("visits");
-
-
-const date = Date();
-
-const today = date.getDate();
-const day = today.getDay();
-console.log(day);
-
-
