@@ -1,0 +1,61 @@
+body {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-family: Ubuntu, sans-serif;
+}
+
+caption {
+    caption-side: bottom;
+    background-color: rgb(127, 185, 194);
+    padding: 5px;
+    font-size: 12px;
+}
+
+#bf {
+    font-style: italic;
+}
+
+#nov-val {
+    background-color: rgb(98, 140, 166);
+    color: white;
+}
+
+table {
+    margin: 5px auto;
+    border: thin solid gray;
+    border-collapse: collapse;
+    background-color: rgb(231, 240, 237);
+    box-shadow: 10px 30px 30px rgb(109, 148, 172);
+}
+
+tr th {
+    color: white;
+}
+
+tr:first-child th {
+    background-color: rgb(127, 185, 194);
+    color: black;
+    font-weight: bold;
+}
+
+th {
+    background-color: rgb(98, 140, 166);
+}
+
+tr:nth-child(even) {
+    background-color: rgb(231, 255, 227);
+}
+
+th,
+td {
+    border: 1px solid gray;
+    padding: 5px;
+    text-align: center;
+}
+
+@media (max-width: 800px) {
+    td {
+        padding: 1rem;
+    }
+}
