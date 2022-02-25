@@ -150,6 +150,7 @@ form textarea {
     background: none;
     color: white;
     margin-top: 20px;
+    text-align: left;
 }
 
 form div div,
@@ -163,6 +164,7 @@ form button {
     margin: 0;
     width: 100%;
     text-align: center;
+    background-color: #3D3D3D;
 }
 
 input {
