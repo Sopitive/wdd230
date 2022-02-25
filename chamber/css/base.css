@@ -94,6 +94,13 @@ main div img:hover {
     text-align: left;
 }
 
+.member-des {
+    flex: 1;
+    color: skyblue;
+    background-color: #3D3D3D;
+    margin: 20px;
+}
+
 a {
     color: #17B5DE;
     text-decoration: none;
