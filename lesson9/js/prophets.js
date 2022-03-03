@@ -11,7 +11,19 @@ fetch(requestURL)
         prophets.forEach(displayProphets);
     });
 
+function ordinal(number) {
+    let x = number % 10;
+    let y = number % 100;
 
+    if (x === 1 && y !== 11) {
+        return `${number}st`;
+    } else if (x === 2 && y !== 12) {
+        return `${number}nd`;
+    } else if (x === 3 && y !== 13) {
+        return `${number}rd`;
+    }
+    return `${number}th`;
+}
 
 
 
@@ -25,7 +37,8 @@ function displayProphets(prophet) {
     let portrait = document.createElement('img');
 
     // Change the textContent property of the h2 element to contain the prophet's full name
-    h2.textContent = `${prophet.name} ${prophet.lastname}`;
+    let prophetNum = ordinal(prophet.order);
+    h2.textContent = `${prophet.name} ${prophet.lastname} - ${prophetNum} Prophet`;
     p1.textContent = `Date of Birth: ${prophet.birthdate}`;
     p2.textContent = `Place of Birth: ${prophet.birthplace}`;
 
