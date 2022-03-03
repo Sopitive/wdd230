@@ -1,0 +1,40 @@
+* {
+    background-color: white;
+    text-align: center;
+    margin-bottom: 30px;
+    color: rgb(77, 77, 150);
+}
+
+main div {
+    display: grid;
+    grid-column-gap: 10px;
+    width: 100%;
+}
+
+main div img {
+    max-width: 50%;
+}
+
+main section,
+h2 {
+    background-color: rgb(185, 185, 204);
+    box-shadow: 5px 3px 2px gray;
+}
+
+p {
+    font-size: 16px;
+    background-color: rgb(185, 185, 204);
+    color: black;
+}
+
+@media only screen and (min-width: 600px) {
+    main div {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media only screen and (min-width: 830px) {
+    main div {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
