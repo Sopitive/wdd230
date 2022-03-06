@@ -47,4 +47,10 @@
     header button {
         display: none;
     }
+    .cards {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .cards-list {
+        grid-template-columns: 1fr;
+    }
 }

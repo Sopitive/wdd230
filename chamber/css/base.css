@@ -25,6 +25,41 @@ html {
     flex-flow: column;
 }
 
+.directory {
+    grid-template-columns: none;
+}
+
+.toggle {
+    align-self: center;
+}
+
+.button-img {
+    width: 100%;
+    margin-right: 10px;
+}
+
+.card-image {
+    display: none;
+}
+
+.display {
+    display: block;
+}
+
+.cards-list {
+    grid-template-columns: 1fr;
+}
+
+.card-div {
+    display: flex;
+    flex-flow: column;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
 .social {
     display: grid;
     grid-auto-flow: column;
