@@ -40,6 +40,7 @@ html {
 
 .card-image {
     display: none;
+    width: 10em;
 }
 
 .display {
@@ -53,6 +54,7 @@ html {
 .card-div {
     display: flex;
     flex-flow: column;
+    align-items: center;
 }
 
 .cards {
