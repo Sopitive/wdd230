@@ -26,7 +26,6 @@ let wind_speed = "";
 
 function doStuff(data) {
     results = data;
-    console.log(results);
     icon = results['weather'][0]['icon'];
     main_state = results['weather'][0]['main'];
     temp = results['main']['temp'];
