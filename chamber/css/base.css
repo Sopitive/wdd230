@@ -4,6 +4,15 @@ html {
     min-width: 100%;
 }
 
+#weathericon {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.main {
+    display: inline-block;
+}
+
 .discover-main div {
     display: flex;
     flex-flow: column;
