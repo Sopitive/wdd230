@@ -9,7 +9,7 @@ html {
     vertical-align: top;
 }
 
-.main {
+main {
     display: inline-block;
 }
 
@@ -193,11 +193,14 @@ form div:hover,
 form textarea {
     display: flex;
     flex-flow: column;
-    grid-column: 1/2;
     background: none;
     color: white;
     margin-top: 20px;
     text-align: left;
+}
+
+.textarea {
+    margin-left: 1.5rem;
 }
 
 form div div,
@@ -208,10 +211,11 @@ form div div:hover {
 form button {
     font-size: 14px;
     padding: 0;
-    margin: 0;
-    width: 100%;
+    width: 20rem;
     text-align: center;
     background-color: #3D3D3D;
+    margin-bottom: 30px;
+    margin-left: 1.5rem;
 }
 
 input {
@@ -224,7 +228,6 @@ input {
 form label.top {
     display: block;
     background-color: inherit;
-    width: 100%;
     padding: 1rem;
 }
 
