@@ -1,0 +1,84 @@
+{
+    "temples": [{
+            "name": "Nauvoo Temple",
+            "street": "50 N Wells St",
+            "state": "IL",
+            "zip": "62354",
+            "city": "Nauvoo",
+            "phone": "(217) 453-6252",
+            "services": ["Clothing Rental"],
+            "history": [{
+                "announced": "4 April 1999",
+                "groundbreaking": "24 October 1999",
+                "Dedicated": "27 June 2002"
+            }],
+            "closures": ["Monday, 28 March 2022 - Monday, 23 May 2022",
+                "Monday, 26 September 2022 - Monday, 24 October 2022",
+                "Thursday, 24 November 2022",
+                "Saturday, 24 December 2022",
+                "Saturday, 31 December 2022"
+            ],
+            "image": "navoo.png"
+        },
+        {
+            "name": "Albuquerque Temple",
+            "street": "10301 San Francisco Rd NE",
+            "state": "NM",
+            "zip": "87122",
+            "city": "Albuquerque",
+            "phone": "(505) 822-5110",
+            "services": ["Clothing Rental", "Distrubution Center"],
+            "history": [{
+                "announced": "4 April 1997",
+                "groundbreaking": "20 June 1998",
+                "Dedicated": "5 March 2000"
+            }],
+            "closures": ["Monday, 4 April 2022 - Monday, 18 April 2022",
+                "Monday, 3 October 2022 - Monday, 17 October 2022",
+                "Wednesday, 23 November 2022 (Limited Operations)",
+                "Thursday, 24 November 2022",
+                "Saturday, 24 December 2022",
+                "Saturday, 31 December 2022 (Limited Operations)"
+            ],
+            "image": "albuquerque.png"
+        },
+        {
+            "name": "San Diego Temple",
+            "street": "7474 Charmant Dr",
+            "state": "CA",
+            "zip": "92122",
+            "city": "San Diego",
+            "phone": "(1) 858-622-0991",
+            "services": ["Clothing Rental", "Distrubution Center"],
+            "history": [{
+                "announced": "7 April 1984",
+                "groundbreaking": "27 Febuary 1988",
+                "Dedicated": "25 April 1993"
+            }],
+            "closures": ["Saturday, 1 October 2022",
+                "Wednesday, 23 November 2022 - Thursday, 24 November 2022",
+                "Saturday, 24 December 2022",
+                "Saturday, 31 December 2022"
+            ],
+            "image": "san-diego.png"
+        },
+        {
+            "name": "Salt Lake City Temple",
+            "street": "50 West North Temple Street",
+            "state": "UT",
+            "zip": "84150",
+            "city": "Salt Lake City",
+            "phone": "801-240-2640",
+            "services": ["Clothing Rental", "Distrubution Center"],
+            "history": [{
+                "announced": "28 July 1847",
+                "groundbreaking": "14 Febuary 1853",
+                "Dedicated": "6-24 April 1893"
+            }],
+            "closures": ["December 29, 2019 - 2024"],
+            "image": "temple.png"
+        }
+
+
+    ]
+}

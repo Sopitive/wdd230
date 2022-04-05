@@ -12,34 +12,32 @@
 
 <body>
     <header>
-        <nav>
-            <a href="index.html" class="logo">
-                <img src="images/logo.png" alt="logo" width="100" height="100">
-            </a>
-            <h1>Temple Inn & Suites</h1>
 
-            <div>
-                <ul>
-                    <li>
-                        <a href="index.html">Home</a>
-                    </li>
-                    <li>
-                        <a href="temple.html">Temple</a>
-                    </li>
-                    <li>
-                        <a href="reservation.html">Reservation</a>
-                    </li>
-                    <li>
-                        <a href="services.html">Services</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
-        <button>Book Now!</button>
+        <a href="index.html" class="logo">
+            <img src="images/logo.png" alt="logo" width="100" height="100">
+        </a>
+
+        <div class="nav">
+
+            <ul>
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="temple.html">Temple</a>
+                </li>
+                <li>
+                    <a href="reservation.html">Reservation</a>
+                </li>
+                <li>
+                    <a href="services.html">Services</a>
+                </li>
+            </ul>
+        </div>
     </header>
     <main>
 
-        <div>
+        <div class="weather">
             <h2>Weather</h2>
             <p>Temperature: <span class="temperature"></span></p>
             <p>Wind Chill: <span class="wind-chill"></span></p>
@@ -49,40 +47,38 @@
             <img id="weathericon">
 
         </div>
-        <div>
+        <div class="highlight">
+            <h2>Temple Highlight</h2>
+            <img class="temple" src="images/temple.png" alt="Salt Lake City Temple">
 
         </div>
-        <div>
-
+        <div class="services">
+            <h2>Specialized Services</h2>
+            <li>Free access to changing rooms and bathroom facilities for temple patrons who have traveled far and need to change to and from church clothes</li>
+            <li>A playroom and low-cost, short-term babysitting services for the children of patrons</li>
+            <li>Long-term stay accommodations in kitchenette suites for full-time temple missionaries</li>
+            <li>Temple history themed reception and sitting area</li>
+            <li>A wedding reception hall that can be easily customized with a simple catering menu and kitchen access for food preparation and serving</li>
+            <li>A family search center that supports family search and ordinance work</li>
         </div>
-        <div>
-
-        </div>
-        <div>
-
-        </div>
-        <div>
-
-        </div>
-        <div>
-
-        </div>
-        <div>
-
-        </div>
-        <div>
-
+        <div class="action">
+            <h2>Make A Reservation</h2>
+            <p>Find the best hotel options for you.</p>
+            <p>Book your hotel reservation today!</p>
+            <button>Book Now</button>
         </div>
     </main>
 
 
     <footer>
         <div>
-            <p>&copy; Copyright 2022. All rights reserved.</p>
         </div>
+        <p id="updated"></p>
+        <p>Copyright &copy <span id="year"></span>. All rights reserved.</p>
     </footer>
 
     <script src="js/weather.js"></script>
+    <script src="js/date.js"></script>
 </body>
 
 </html>
