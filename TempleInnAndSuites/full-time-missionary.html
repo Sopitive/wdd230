@@ -5,12 +5,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Temple inn and suites, book your reservation today!">
+    <meta name="description" content="Details about full hotel rooms and services.">
     <link rel="stylesheet" href="css/base.css">
-    <title>Temple Inn & Suites</title>
+    <title>Full-Time Temple Missionaries</title>
 </head>
 
 <body>
+
     <header>
 
         <a href="index.html" class="logo">
@@ -34,66 +35,57 @@
                 </li>
             </ul>
         </div>
-        <div class="button-div">
-            <button class="hamburger">Ξ</button>
-        </div>
-        <div class="social">
-            <!--Images for facebook and twitter-->
-            <a href="https://www.facebook.com/" target="_blank"><img src="images/facebook.png" alt="facebook" width="30" height="30"></a>
-            <a href="https://twitter.com/" target="_blank"><img src="images/twitter.png" alt="twitter" width="30" height="30"></a>
-        </div>
-
     </header>
 
-
-    <main class="services-main">
-        <div class="services">
-            <h2>Services Offered</h2>
+    <main class="missionary-main">
+        <div>
+            <h2>Suite Options</h2>
             <ul>
-                <li>Free Breakfast</li>
-                <li>Free WiFi</li>
-                <li>Free Parking</li>
-                <li>Room Service</li>
-                <li>24-hour Front Desk</li>
-                <li>Wedding Accomodations</li>
+                <li>
+                    Single
+                </li>
+                <li>
+                    Double
+                </li>
+                <li>
+                    Queen
+                </li>
+                <li>
+                    King
+                </li>
             </ul>
         </div>
-
         <div>
-            <h2>Reception Info</h2>
-            <a href="reception.html">
-                <p>Information about wedding reception accomodations.</p>
-            </a>
+            <h2>Contact Us</h2>
+            <form action="form-submitted.html">
+                <label for="name">Name:</label>
+                <input type="text" class="name">
+                <label for="email">Email:</label>
+                <input type="email" class="email">
+                <label for="message">Message:</label>
+                <textarea class="message" rows="10"></textarea>
+                <button type="submit">Send</button>
+            </form>
         </div>
-        <div>
-            <h2>Full-Time Temple Missionaries</h2>
-            <a href="full-time-missionary.html">
-                <p>Information about suites at the hotel.</p>
-            </a>
-        </div>
-
-
     </main>
 
     <footer>
         <div>
         </div>
         <p id="updated"></p>
-        <p>Copyright &copy; <span id="year"></span>. All rights reserved.</p>
+        <p>Copyright &copy <span id="year"></span>. All rights reserved.</p>
         <a href="https://www.google.com/maps/place/4800+Montgomery+Ln+%23300,+Bethesda,+MD+20814/@38.9830847,-77.0959049,19.86z/data=!4m5!3m4!1s0x89b7c97b6b8f21f1:0x9a0b3cde14da0a60!8m2!3d38.9832518!4d-77.0955318">Google Maps</a>
         <h2>Contact Us</h2>
         <form action="form-submitted.html">
             <label for="name">Name:</label>
-            <input type="text" id="name">
+            <input type="text" class="name">
             <label for="email">Email:</label>
-            <input type="email" id="email">
+            <input type="email" class="email">
             <label for="message">Message:</label>
             <textarea id="message" rows="10" cols="10"></textarea>
             <button>Send</button>
         </form>
     </footer>
-    <script src="js/date.js"></script>
-    <script src="js/menu.js"></script>
 
 </body>
 

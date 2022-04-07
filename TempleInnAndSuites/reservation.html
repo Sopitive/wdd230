@@ -34,15 +34,147 @@
                 </li>
             </ul>
         </div>
+        <div class="button-div">
+            <button class="hamburger">Ξ</button>
+        </div>
+        <div class="social">
+            <!--Images for facebook and twitter-->
+            <a href="https://www.facebook.com/" target="_blank"><img src="images/facebook.png" alt="facebook" width="30" height="30"></a>
+            <a href="https://twitter.com/" target="_blank"><img src="images/twitter.png" alt="twitter" width="30" height="30"></a>
+        </div>
+
     </header>
 
+    <main>
+
+        <form>
+            <div>
+                <label for="location">Location:</label>
+                <select name="location" id="location" required>
+                <option value="">Select a location</option>
+                <option value="New York">Nauvoo</option>
+                <option value="Miami">Salt Lake</option>
+                <option value="Las Vegas">Albuquerque</option>
+                <option value="Los Angeles">San Diego</option>
+            </select>
+            </div>
+            <div>
+                <label for="date">Date:</label>
+                <input type="date" name="date" id="date" min="2022-01-01" max="2025-12-31" required>
+            </div>
+            <div>
+                <label for="rooms">Number of Rooms:</label>
+                <input type="number" name="rooms" id="rooms" min="1" max="10" value="1" required>
+            </div>
+            <div>
+                <label for="type">Type of Rooms:</label>
+                <select name="type" id="type" required>
+                <option value="">Select a type of room</option>
+                <option value="Single">Single</option>
+                <option value="Double">Double</option>
+                <option value="King">King</option>
+                <option value="Queen">Queen</option>
+            </select>
+            </div>
+            <div>
+                <label for="name">Full Name:</label>
+                <input type="text" name="name" id="name" placeholder="John Doe" required>
+            </div>
+            <div>
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email" placeholder="username@example.com">
+            </div>
+            <div>
+                <label for="phone">Phone:</label>
+                <input type="tel" name="phone" id="phone" placeholder="555-123-4567">
+            </div>
+            <div>
+                <label for="state">State:</label>
+                <!--Selection that contains all the states for the United States-->
+                <select name="state" id="state" required>
+                <option value="">Select a state</option>
+                <option value="AL">Alabama</option>
+                <option value="AK">Alaska</option>
+                <option value="AZ">Arizona</option>
+                <option value="AR">Arkansas</option>
+                <option value="CA">California</option>
+                <option value="CO">Colorado</option>
+                <option value="CT">Connecticut</option>
+                <option value="DE">Delaware</option>
+                <option value="DC">District Of Columbia</option>
+                <option value="FL">Florida</option>
+                <option value="GA">Georgia</option>
+                <option value="HI">Hawaii</option>
+                <option value="ID">Idaho</option>
+                <option value="IL">Illinois</option>
+                <option value="IN">Indiana</option>
+                <option value="IA">Iowa</option>
+                <option value="KS">Kansas</option>
+                <option value="KY">Kentucky</option>
+                <option value="LA">Louisiana</option>
+                <option value="ME">Maine</option>
+                <option value="MD">Maryland</option>
+                <option value="MA">Massachusetts</option>
+                <option value="MI">Michigan</option>
+                <option value="MN">Minnesota</option>
+                <option value="MS">Mississippi</option>
+                <option value="MO">Missouri</option>
+                <option value="MT">Montana</option>
+                <option value="NE">Nebraska</option>
+                <option value="NV">Nevada</option>
+                <option value="NH">New Hampshire</option>
+                <option value="NJ">New Jersey</option>
+                <option value="NM">New Mexico</option>
+                <option value="NY">New York</option>
+                <option value="NC">North Carolina</option>
+                <option value="ND">North Dakota</option>
+                <option value="OH">Ohio</option>
+                <option value="OK">Oklahoma</option>
+                <option value="OR">Oregon</option>
+                <option value="PA">Pennsylvania</option>
+                <option value="RI">Rhode Island</option>
+                <option value="SC">South Carolina</option>
+                <option value="SD">South Dakota</option>
+                <option value="TN">Tennessee</option>
+                <option value="TX">Texas</option>
+                <option value="UT">Utah</option>
+                <option value="VT">Vermont</option>
+                <option value="VA">Virginia</option>
+                <option value="WA">Washington</option>
+                <option value="WV">West Virginia</option>
+                <option value="WI">Wisconsin</option>
+                <option value="WY">Wyoming</option>
+            </select>
+            </div>
+            <div>
+                <label for="comments">Special Comments:</label>
+                <textarea name="comments" id="comments" cols="30" rows="10" placeholder="Additional comments or concerns"></textarea>
+            </div>
+            <div>
+                <input class="submit" type="submit" value="Book">
+            </div>
+        </form>
+    </main>
     <footer>
         <div>
         </div>
         <p id="updated"></p>
-        <p>Copyright &copy <span id="year"></span>. All rights reserved.</p>
+        <p>Copyright &copy; <span id="year"></span>. All rights reserved.</p>
+        <a href="https://www.google.com/maps/place/4800+Montgomery+Ln+%23300,+Bethesda,+MD+20814/@38.9830847,-77.0959049,19.86z/data=!4m5!3m4!1s0x89b7c97b6b8f21f1:0x9a0b3cde14da0a60!8m2!3d38.9832518!4d-77.0955318">Google Maps</a>
+        <h2>Contact Us</h2>
+        <form action="form-submitted.html">
+            <label for="name">Name:</label>
+            <input type="text" id="name2">
+            <label for="email">Email:</label>
+            <input type="email" id="email2">
+            <label for="message">Message:</label>
+            <textarea id="message" rows="10" cols="10"></textarea>
+            <button>Send</button>
+        </form>
     </footer>
     <script src="js/date.js"></script>
+    <script src="js/menu.js"></script>
+
 
 </body>
 

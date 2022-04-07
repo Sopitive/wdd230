@@ -18,7 +18,9 @@
                 "Saturday, 24 December 2022",
                 "Saturday, 31 December 2022"
             ],
-            "image": "navoo.png"
+            "image": "navoo.png",
+            "like": "like.png",
+            "like-filled": "like-filled.png"
         },
         {
             "name": "Albuquerque Temple",
@@ -40,7 +42,9 @@
                 "Saturday, 24 December 2022",
                 "Saturday, 31 December 2022 (Limited Operations)"
             ],
-            "image": "albuquerque.png"
+            "image": "albuquerque.png",
+            "like": "like.png",
+            "like-filled": "like-filled.png"
         },
         {
             "name": "San Diego Temple",
@@ -48,7 +52,7 @@
             "state": "CA",
             "zip": "92122",
             "city": "San Diego",
-            "phone": "(1) 858-622-0991",
+            "phone": "(858)-622-0991",
             "services": ["Clothing Rental", "Distrubution Center"],
             "history": [{
                 "announced": "7 April 1984",
@@ -60,7 +64,9 @@
                 "Saturday, 24 December 2022",
                 "Saturday, 31 December 2022"
             ],
-            "image": "san-diego.png"
+            "image": "san-diego.png",
+            "like": "like.png",
+            "like-filled": "like-filled.png"
         },
         {
             "name": "Salt Lake City Temple",
@@ -68,7 +74,7 @@
             "state": "UT",
             "zip": "84150",
             "city": "Salt Lake City",
-            "phone": "801-240-2640",
+            "phone": "(801)-240-2640",
             "services": ["Clothing Rental", "Distrubution Center"],
             "history": [{
                 "announced": "28 July 1847",
@@ -76,7 +82,9 @@
                 "Dedicated": "6-24 April 1893"
             }],
             "closures": ["December 29, 2019 - 2024"],
-            "image": "temple.png"
+            "image": "temple.png",
+            "like": "like.png",
+            "like-filled": "like-filled.png"
         }
 
 
