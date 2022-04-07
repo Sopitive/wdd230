@@ -1,7 +1,5 @@
 const menu = document.querySelector(".hamburger");
 const nav = document.querySelector(".nav ul");
-// const weekday = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
-// const month = ["January","Febuary","March","April","May","June","July","August", "September","October","November","December"]
 
 menu.addEventListener("click", () => {
     nav.classList.toggle("responsive");

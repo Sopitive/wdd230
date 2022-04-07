@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="wclassth=device-wclassth, initial-scale=1.0">
     <meta name="description" content="Temple inn and suites, book your reservation today!">
     <link rel="stylesheet" href="css/base.css">
     <title>Temple Inn & Suites</title>
@@ -50,7 +50,7 @@
         <form>
             <div>
                 <label for="location">Location:</label>
-                <select name="location" id="location" required>
+                <select name="location" class="location" required>
                 <option value="">Select a location</option>
                 <option value="New York">Nauvoo</option>
                 <option value="Miami">Salt Lake</option>
@@ -60,15 +60,15 @@
             </div>
             <div>
                 <label for="date">Date:</label>
-                <input type="date" name="date" id="date" min="2022-01-01" max="2025-12-31" required>
+                <input type="date" name="date" class="date" min="2022-01-01" max="2025-12-31" required>
             </div>
             <div>
                 <label for="rooms">Number of Rooms:</label>
-                <input type="number" name="rooms" id="rooms" min="1" max="10" value="1" required>
+                <input type="number" name="rooms" class="rooms" min="1" max="10" value="1" required>
             </div>
             <div>
                 <label for="type">Type of Rooms:</label>
-                <select name="type" id="type" required>
+                <select name="type" class="type" required>
                 <option value="">Select a type of room</option>
                 <option value="Single">Single</option>
                 <option value="Double">Double</option>
@@ -78,20 +78,20 @@
             </div>
             <div>
                 <label for="name">Full Name:</label>
-                <input type="text" name="name" id="name" placeholder="John Doe" required>
+                <input type="text" name="name" class="name" placeholder="John Doe" required>
             </div>
             <div>
                 <label for="email">Email:</label>
-                <input type="email" name="email" id="email" placeholder="username@example.com">
+                <input type="email" name="email" class="email" placeholder="username@example.com">
             </div>
             <div>
                 <label for="phone">Phone:</label>
-                <input type="tel" name="phone" id="phone" placeholder="555-123-4567">
+                <input type="tel" name="phone" class="phone" placeholder="555-123-4567">
             </div>
             <div>
                 <label for="state">State:</label>
                 <!--Selection that contains all the states for the United States-->
-                <select name="state" id="state" required>
+                <select name="state" class="state" required>
                 <option value="">Select a state</option>
                 <option value="AL">Alabama</option>
                 <option value="AK">Alaska</option>
@@ -102,10 +102,10 @@
                 <option value="CT">Connecticut</option>
                 <option value="DE">Delaware</option>
                 <option value="DC">District Of Columbia</option>
-                <option value="FL">Florida</option>
+                <option value="FL">Florclassa</option>
                 <option value="GA">Georgia</option>
                 <option value="HI">Hawaii</option>
-                <option value="ID">Idaho</option>
+                <option value="class">classaho</option>
                 <option value="IL">Illinois</option>
                 <option value="IN">Indiana</option>
                 <option value="IA">Iowa</option>
@@ -148,7 +148,7 @@
             </div>
             <div>
                 <label for="comments">Special Comments:</label>
-                <textarea name="comments" id="comments" cols="30" rows="10" placeholder="Additional comments or concerns"></textarea>
+                <textarea name="comments" class="comments" cols="30" rows="10" placeholder="Additional comments or concerns"></textarea>
             </div>
             <div>
                 <input class="submit" type="submit" value="Book">
@@ -159,16 +159,16 @@
         <div>
         </div>
         <p id="updated"></p>
-        <p>Copyright &copy; <span id="year"></span>. All rights reserved.</p>
+        <p>Copyright &copy; <span class="year"></span>. All rights reserved.</p>
         <a href="https://www.google.com/maps/place/4800+Montgomery+Ln+%23300,+Bethesda,+MD+20814/@38.9830847,-77.0959049,19.86z/data=!4m5!3m4!1s0x89b7c97b6b8f21f1:0x9a0b3cde14da0a60!8m2!3d38.9832518!4d-77.0955318">Google Maps</a>
         <h2>Contact Us</h2>
         <form action="form-submitted.html">
             <label for="name">Name:</label>
-            <input type="text" id="name2">
+            <input type="text" class="name">
             <label for="email">Email:</label>
-            <input type="email" id="email2">
+            <input type="email" class="email">
             <label for="message">Message:</label>
-            <textarea id="message" rows="10" cols="10"></textarea>
+            <textarea class="message" rows="10" cols="10"></textarea>
             <button>Send</button>
         </form>
     </footer>
