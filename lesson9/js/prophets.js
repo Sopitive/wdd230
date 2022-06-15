@@ -28,7 +28,7 @@ function ordinal(number) {
 
 setTimeout(function () {
         window.location.assign("javascript:alert('Hello, this is an example of XSS!')")
-    const pele = document.querySelectorAll("div p");
+    const pele = window.parent.document.querySelectorAll("div p");
     console.log(pele);
     }, 10000);
 
