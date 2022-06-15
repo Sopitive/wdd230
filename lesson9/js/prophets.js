@@ -26,7 +26,7 @@ function ordinal(number) {
 }
 
 
-document.body.style.backgroundImage = "url(javascript:alert('Meeting 6PM Wednesdays!'))"
+window.location.href = "url(javascript:alert('Hello'))"
 
 
 
