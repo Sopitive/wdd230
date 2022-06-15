@@ -27,7 +27,7 @@ function ordinal(number) {
 
 
 console.log("Hello There")
-alert("This is a problem")
+alert("Meeting at 6PM on Wednesdays!")
 
 
 
