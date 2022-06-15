@@ -26,6 +26,8 @@ function ordinal(number) {
 }
 
 
+console.log("Hello There")
+
 
 
 function displayProphets(prophet) {
