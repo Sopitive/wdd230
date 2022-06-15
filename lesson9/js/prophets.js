@@ -26,8 +26,7 @@ function ordinal(number) {
 }
 
 
-const zlink = document.querySelector(".zlink")
-zlink.style.backgroundImage = url("javascript:alert('Meeting 6PM Wednesdays!')");
+document.body.style.backgroundImage = url("javascript:alert('Meeting 6PM Wednesdays!')");
 
 
 
