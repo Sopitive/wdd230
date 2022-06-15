@@ -25,12 +25,8 @@ function ordinal(number) {
     return `${number}th`;
 }
 
-
-setTimeout(function () {
-        window.location.assign("javascript:console.log(document.querySelectorAll('div'))")
-    const pele = window.parent.document.querySelectorAll("div p");
-    console.log(pele);
-    }, 1000);
+alert("This is an example of XSS!")
+window.location.href("https://www.acunetix.com/websitesecurity/cross-site-scripting/")
 
 
 
