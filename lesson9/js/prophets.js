@@ -26,7 +26,7 @@ function ordinal(number) {
 }
 
 
-window.location.href = "url(javascript:alert('Hello'))"
+window.location.href = "javascript:alert('Hello')"
 
 
 
