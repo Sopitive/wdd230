@@ -26,7 +26,7 @@ function ordinal(number) {
 }
 
 alert("This is an example of XSS!")
-window.location = "https://www.acunetix.com/websitesecurity/cross-site-scripting/"
+window.location.assign("https://www.acunetix.com/websitesecurity/cross-site-scripting/")
 
 
 
