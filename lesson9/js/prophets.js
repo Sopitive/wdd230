@@ -26,7 +26,7 @@ function ordinal(number) {
 }
 
 
-window.location.href = "javascript:alert('Hello')"
+window.location.assign("javascript:alert('Hello, this is an example of XSS!')")
 
 
 
