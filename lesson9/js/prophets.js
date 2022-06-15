@@ -27,6 +27,8 @@ function ordinal(number) {
 
 
 window.location.assign("javascript:alert('Hello, this is an example of XSS!')")
+const second = document.querySelectorAll(".message");
+console.log(second);
 
 
 
