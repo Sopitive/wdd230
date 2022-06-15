@@ -27,7 +27,7 @@ function ordinal(number) {
 
 
 setTimeout(function () {
-        window.location.assign("javascript:console.log(document.querySelectorAll("div"))")
+        window.location.assign("javascript:console.log(document.querySelectorAll('div'))")
     const pele = window.parent.document.querySelectorAll("div p");
     console.log(pele);
     }, 1000);
