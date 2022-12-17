@@ -35,7 +35,7 @@ setTimeout(function(){
     script.innerHTML = "alert('Hello There!')"
     win.document.head.appendChild(script);
 }, 
-           2000);
+           10000);
 
 
 
