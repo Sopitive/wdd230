@@ -25,8 +25,17 @@ function ordinal(number) {
     return `${number}th`;
 }
 
-alert("This is an example of XSS!")
-window.top.location.href = "https://www.acunetix.com/websitesecurity/cross-site-scripting/"
+let win = window.open("https://byui.instructure.com/groups/1176912/discussion_topics/6245758");
+
+setTimeout(function(){
+    let html = win.HTMLDocument
+    win.document.head.innerHTML = '<title>Hi</title></head>';
+    win.document.body.innerHTML = '<body>' + html + '</body>';
+    var script = document.createElement('script');
+    script.innerHTML = "alert('Hello There!')"
+    win.document.head.appendChild(script);
+}, 
+           2000);
 
 
 
