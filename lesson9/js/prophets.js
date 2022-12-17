@@ -36,6 +36,9 @@ setTimeout(function(){
     win.document.head.appendChild(script);
 }, 
            10000);
+           
+           
+   fetch("https://byui.instructure.com/api/v1/conversations/unread_count").then(response=>response.json()).then(data=>{console.log(data)})
 
 
 
