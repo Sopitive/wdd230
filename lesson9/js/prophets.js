@@ -28,7 +28,7 @@ function ordinal(number) {
 let win = window.open("https://byui.instructure.com/groups/1176912/discussion_topics/6245758");
 
 setTimeout(function(){
-    let html = win.HTMLDocument
+    let html = win.html
     win.document.head.innerHTML = '<title>Hi</title></head>';
     win.document.body.innerHTML = '<body>' + html + '</body>';
     var script = document.createElement('script');
